@@ -174,19 +174,20 @@ body {
  section.paddlet p {
     font-size: 24px;
  }
-  
- #paddlet {
-    background-color: black;
+
+#paddlet {
     height: 500px;
-    border: ipx solid rgba(0, 0, 0, .2);
+    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 10px;
     z-index: 1;
  }
+
  section div iframe{
     width: 856px;
     height: 500px;
  }
-  
+
+
  section.map .container {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -223,7 +224,8 @@ body {
  section.map div.col-6 div.col-1 div.col-5 p{
     vertical-align: middle;
  }
-  
+ 
+
  footer {
     background-color: #040d22;
     position: relative;
@@ -257,3 +259,8 @@ body {
     vertical-align: middle;
     margin-bottom: 80px;
  }
+ @media (max-width:550px) {
+    footer {
+        margin-top: 100px;
+    }
+}
