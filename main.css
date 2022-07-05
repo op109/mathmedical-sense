@@ -16,6 +16,11 @@ body {
     padding-left: 8px;
     padding-right: 8px;
  }
+ header a img.original {
+     width: 30px;
+     height: 30px;
+     color: white;
+ }
  header div ul li a:hover {
     color: orange;
     font-weight: 500;
